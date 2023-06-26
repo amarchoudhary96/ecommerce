@@ -2,8 +2,8 @@ import React from 'react'
 
 const PgFoF = () => {
   return (
-    <div>
-      PgFoF
+    <div className='flex justify-center items-center  h-screen'>
+      <h1 >Page Not Found 404</h1>
     </div>
   )
 }

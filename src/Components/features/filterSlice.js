@@ -27,13 +27,13 @@ const filterSlice = createSlice({
       state.filterproduct = tempProducts;
       if (select === "name-a") {
         tempProducts.sort((a, b) =>
-          a.productTitle.localeCompare(b.productTitle)
+          a.title.localeCompare(b.productTitle)
         );
       }
       state.filterproduct = tempProducts;
       if (select === "name-z") {
         tempProducts.sort((a, b) =>
-          b.productTitle.localeCompare(a.productTitle)
+          b.title.localeCompare(a.productTitle)
         );
       }
       state.filterproduct = tempProducts;
