@@ -3,7 +3,13 @@
     justify-content: center;
     height: 100%;
     margin-top: 100px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+}
+@media screen and (max-width:768px) {
+       .addprod-container{
+        height: 100vh;
+}  
+      
 }
 .addprod-form{
         display: flex;

@@ -19,7 +19,7 @@ const Home = () => {
 
   const addtowishlist = (item) => {
     dispatch(updatewishlist(item));
-    dispatch(updateid("all"))
+    dispatch(updateid("all"));
     console.log(item);
   };
   const isWishTrue = (itemId) => {
@@ -73,7 +73,9 @@ const Home = () => {
         {product.map((item) => {
           return (
             <div className="product-containers " key={item.id}>
-              <img src={item.image} />
+              <Link to={`/product/${item.id}`}>
+                <img src={item.image} onClick={all} />
+              </Link>
               <div className="product-details">
                 <Link to={`/product/${item.id}`}>
                   <button className="producttitles" onClick={all}>

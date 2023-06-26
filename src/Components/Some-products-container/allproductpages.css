@@ -1,6 +1,6 @@
 .allproductpages {
       background-color: white;
-      height: calc(100vh - 65px);
+      height: 100%;
       width: 100%;
       font-weight: 700;
       font-size: 20px;
@@ -8,6 +8,7 @@
       max-width: 1400px;
       overflow-x: hidden;
       margin: 0 auto;
+      margin-top: 80px;
 
       
 

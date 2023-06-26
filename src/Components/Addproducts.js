@@ -103,7 +103,7 @@ console.log(user);
         </div>
         
       ) : (
-        <div>You Don't have access to add products</div>
+        <div className="h-screen flex justify-center  font-bold text-xl">You Don't have access to add products</div>
       )}
     </div>
   );

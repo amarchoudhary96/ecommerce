@@ -25,7 +25,10 @@ const ProductContainer = ({ product }) => {
   return (
     <div className="products ">
       <div className="product-container">
+      <Link to={`/product/${product.id}`}>
         <img src={product.image} />
+        </Link>
+
         <div className="product-details">
           <Link to={`/product/${product.id}`}>
             <button className="producttitle">

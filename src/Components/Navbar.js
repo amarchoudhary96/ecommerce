@@ -145,7 +145,7 @@ const Navbar = () => {
                     </div>
                     <input
                       type="text"
-                      placeholder="Search for products, brands and more"
+                      placeholder="Search "
                       className=" input  bg-transparent text-black rounded-r-lg px-4 py-2 focus:outline-none  "
                       onClick={handleClick}
                       value={text}
@@ -203,13 +203,13 @@ const Navbar = () => {
                       isClicked ? "bg-white" : "bg-gray-50"
                     } rounded-lg`}
                   >
-                    <div className="bg-transparent text-black rounded-l-lg flex items-center px-4 py-2">
+                    <div className="bg-transparent text-black rounded-l-lg  items-center px-4 py-2  hidden sm:flex">
                       <BiSearch className="text-black" />
                     </div>
                     <input
                       type="text"
-                      placeholder="Search for products, brands and more"
-                      className="input  bg-transparent text-black rounded-r-lg px-4 py-2 focus:outline-none  "
+                      placeholder="Search "
+                      className="input  bg-transparent text-black rounded-r-lg px-0 py-2 focus:outline-none  "
                       onClick={handleClick}
                       value={text}
                       onChange={handleChange}
