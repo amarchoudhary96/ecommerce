@@ -2,14 +2,14 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-bottom: 40px;
+        margin-top: 100px;
 }
 
 @media screen and (max-width:680px) {
         .wishlist-items {
                 display: grid;
                 grid-template-columns: auto auto;
-                margin-bottom: 230px;
+                margin-bottom: 250px;
                 padding: 10px;
         }
 }

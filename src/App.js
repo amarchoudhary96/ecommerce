@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="mt-[80px]">
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -30,7 +30,7 @@ function App() {
         <Route path="/*" element={<PgFoF />} />
       </Routes>
       <Footer/>
-      </div>
+      
      
 
     </BrowserRouter>

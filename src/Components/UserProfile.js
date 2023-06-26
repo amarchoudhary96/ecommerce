@@ -30,7 +30,7 @@ const UserProfile = () => {
           </div>
         </div>
       ) : (
-        <div className="flex justify-center items-center text-lg mb-[250px]"><h1>You Are Not Logged In</h1>
+        <div className="flex justify-center items-center text-lg "><h1>You Are Not Logged In</h1>
         </div>
       )}
     </div>
