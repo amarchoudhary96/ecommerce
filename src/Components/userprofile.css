@@ -2,8 +2,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 200px;
-        margin-bottom: 120px;
+        height: 100vh;
 }
 
 .user-profile {

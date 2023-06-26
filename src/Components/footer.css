@@ -1,12 +1,15 @@
 
 
 .footer-container {
-        height: 80px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: black
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 80px;
+  margin-bottom: auto;
+
 
 }
 .footer-container span {
